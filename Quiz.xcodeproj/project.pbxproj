@@ -15,8 +15,8 @@
 		142967452637B10E00E6E0A6 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142967442637B10E00E6E0A6 /* QuizUITests.swift */; };
 		142967582637B1A400E6E0A6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142967572637B1A400E6E0A6 /* Home.swift */; };
 		1429675D2637B8F900E6E0A6 /* QA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429675C2637B8F900E6E0A6 /* QA.swift */; };
-		142967772637CE7000E6E0A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 142967762637CE7000E6E0A6 /* GoogleService-Info.plist */; };
 		1429677C2637CEDE00E6E0A6 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429677B2637CEDE00E6E0A6 /* Question.swift */; };
+		142967822637D3A500E6E0A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 142967812637D3A500E6E0A6 /* GoogleService-Info.plist */; };
 		4F5CBE9AA019E13FE2E0F50E /* Pods_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B866D4D2211753E4A76CD9 /* Pods_Quiz.framework */; };
 		508F3BAE6675DA0D6978DC0E /* Pods_QuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D41053C1C661250BD29AB51 /* Pods_QuizTests.framework */; };
 		D0D5977747D66FCF104A3B3D /* Pods_Quiz_QuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7106DFF60B53DE0059E03B /* Pods_Quiz_QuizUITests.framework */; };
@@ -55,8 +55,8 @@
 		142967462637B10E00E6E0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		142967572637B1A400E6E0A6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1429675C2637B8F900E6E0A6 /* QA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QA.swift; sourceTree = "<group>"; };
-		142967762637CE7000E6E0A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1429677B2637CEDE00E6E0A6 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		142967812637D3A500E6E0A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		17D779D58523127DA8F5DF85 /* Pods-Quiz-QuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quiz-QuizUITests.release.xcconfig"; path = "Target Support Files/Pods-Quiz-QuizUITests/Pods-Quiz-QuizUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3D41053C1C661250BD29AB51 /* Pods_QuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F796809C91FC6119F916AE5 /* Pods-QuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizTests.release.xcconfig"; path = "Target Support Files/Pods-QuizTests/Pods-QuizTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 				142967292637B10E00E6E0A6 /* ContentView.swift */,
 				1429672B2637B10E00E6E0A6 /* Assets.xcassets */,
 				142967302637B10E00E6E0A6 /* Info.plist */,
-				142967762637CE7000E6E0A6 /* GoogleService-Info.plist */,
+				142967812637D3A500E6E0A6 /* GoogleService-Info.plist */,
 				1429672D2637B10E00E6E0A6 /* Preview Content */,
 			);
 			path = Quiz;
@@ -316,7 +316,7 @@
 			files = (
 				1429672F2637B10E00E6E0A6 /* Preview Assets.xcassets in Resources */,
 				1429672C2637B10E00E6E0A6 /* Assets.xcassets in Resources */,
-				142967772637CE7000E6E0A6 /* GoogleService-Info.plist in Resources */,
+				142967822637D3A500E6E0A6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
