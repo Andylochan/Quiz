@@ -72,7 +72,7 @@ struct Home: View {
         }
         .background(Color.black.opacity(0.05).ignoresSafeArea())
         .sheet(isPresented: $show, content: {
-            QA(correct: $correct, incorrect: $incorrect)
+            QA(correct: $correct, incorrect: $incorrect, answered: $answered, set: set)
         })
     }
 }
